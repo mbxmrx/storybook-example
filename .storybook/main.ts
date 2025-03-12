@@ -7,6 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "happo-plugin-storybook/preset",
   ],
   framework: {
     name: "@storybook/react-vite",
