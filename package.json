@@ -23,7 +23,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=chpt_608ff6eb40f253a"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -43,6 +44,8 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "eslint-plugin-storybook": "^0.11.2",
     "globals": "^15.9.0",
+    "happo-plugin-storybook": "^4.4.1",
+    "happo.io": "^12.0.1",
     "msw": "^2.3.0",
     "msw-storybook-addon": "^2.0.3",
     "storybook": "^8.5.6",
@@ -58,5 +61,5 @@
       "plugin:storybook/recommended"
     ]
   },
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "npm@10.9.2+sha512.8ab88f10f224a0c614cb717a7f7c30499014f77134120e9c1f0211ea3cf3397592cbe483feb38e0c4b3be1c54e347292c76a1b5edb94a3289d5448484ab8ac81"
 }
